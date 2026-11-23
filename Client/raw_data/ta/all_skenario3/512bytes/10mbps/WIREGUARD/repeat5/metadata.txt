@@ -1,0 +1,16 @@
+ID Pengujian : 3_512bytes_10mbps_WIREGUARD_repeat5
+Tanggal      : Mon Oct 19 02:51:44 PM UTC 2026
+Client       : Ubuntu-Client
+Server IP    : 10.10.0.1
+Protokol     : UDP
+Ukuran       : 512 byte
+Target       : 10M
+Durasi       : 30 detik
+Kondisi      : WIREGUARD
+Repeat       : 5
+Waktu selesai          : Mon Oct 19 02:52:21 PM UTC 2026
+Status iperf3           : 0
+Status receiver         : 0
+Status CPU client       : 0
+Status monitor CPU server: 0
+Status salin CPU server : 0

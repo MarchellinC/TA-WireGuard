@@ -1,0 +1,39 @@
+Connecting to host 192.168.56.101, port 5201
+[  5] local 192.168.56.103 port 54723 connected to 192.168.56.101 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  5.95 MBytes  49.9 Mbits/sec  6097  
+[  5]   1.00-2.00   sec  4.75 MBytes  39.8 Mbits/sec  4864  
+[  5]   2.00-3.00   sec  1.68 MBytes  14.1 Mbits/sec  1718  
+[  5]   3.00-4.00   sec  3.25 MBytes  27.2 Mbits/sec  3325  
+[  5]   4.00-5.00   sec  7.14 MBytes  59.9 Mbits/sec  7310  
+[  5]   5.00-6.00   sec  6.98 MBytes  58.5 Mbits/sec  7144  
+[  5]   6.00-7.00   sec  8.21 MBytes  68.9 Mbits/sec  8412  
+[  5]   7.00-8.00   sec  7.65 MBytes  64.2 Mbits/sec  7833  
+[  5]   8.00-9.00   sec  7.47 MBytes  62.6 Mbits/sec  7645  
+[  5]   9.00-10.00  sec  6.53 MBytes  54.7 Mbits/sec  6684  
+[  5]  10.00-11.00  sec  1.67 MBytes  14.0 Mbits/sec  1710  
+[  5]  11.00-12.00  sec  1.53 MBytes  12.9 Mbits/sec  1571  
+[  5]  12.00-13.00  sec  1.69 MBytes  14.2 Mbits/sec  1729  
+[  5]  13.00-14.00  sec  1.69 MBytes  14.1 Mbits/sec  1726  
+[  5]  14.00-15.00  sec  1.70 MBytes  14.3 Mbits/sec  1744  
+[  5]  15.00-16.00  sec  1.67 MBytes  14.0 Mbits/sec  1706  
+[  5]  16.00-17.00  sec  2.26 MBytes  19.0 Mbits/sec  2315  
+[  5]  17.00-18.00  sec  7.54 MBytes  63.3 Mbits/sec  7725  
+[  5]  18.00-19.00  sec  7.72 MBytes  64.7 Mbits/sec  7904  
+[  5]  19.00-20.00  sec  7.59 MBytes  63.6 Mbits/sec  7768  
+[  5]  20.00-21.00  sec  7.69 MBytes  64.5 Mbits/sec  7870  
+[  5]  21.00-22.00  sec  7.06 MBytes  59.3 Mbits/sec  7234  
+[  5]  22.00-23.00  sec  6.04 MBytes  50.6 Mbits/sec  6182  
+[  5]  23.00-24.00  sec  7.57 MBytes  63.5 Mbits/sec  7752  
+[  5]  24.00-25.00  sec  7.63 MBytes  64.0 Mbits/sec  7810  
+[  5]  25.00-26.00  sec  8.04 MBytes  67.4 Mbits/sec  8232  
+[  5]  26.00-27.00  sec  8.32 MBytes  69.8 Mbits/sec  8523  
+[  5]  27.00-28.00  sec  8.25 MBytes  69.0 Mbits/sec  8451  
+[  5]  28.00-29.00  sec  7.82 MBytes  65.8 Mbits/sec  8007  
+[  5]  29.00-30.00  sec  7.89 MBytes  66.2 Mbits/sec  8079  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-30.00  sec   171 MBytes  47.8 Mbits/sec  0.000 ms  0/175070 (0%)  sender
+[  5]   0.00-30.04  sec   171 MBytes  47.7 Mbits/sec  0.187 ms  0/175068 (0%)  receiver
+
+iperf Done.

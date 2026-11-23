@@ -1,0 +1,7 @@
+Mulai pemantauan CPU Server
+Hostname : Ubuntu-server
+Pengujian: 3_128bytes_10mbps_BASELINE_repeat2
+Durasi   : 35 detik
+Log      : /media/sf_Server/raw_data/ta/3_128bytes_10mbps_BASELINE_repeat2/cpu_server.log
+Pemantauan selesai.
+Hasil tersimpan di: /media/sf_Server/raw_data/ta/3_128bytes_10mbps_BASELINE_repeat2/cpu_server.log

@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# ==========================================
+# SCRIPT TESTING AWAL WIREGUARD
+# 1 skenario, 1 pengulangan
+# ==========================================
+
+SERVER_IP="10.10.0.1"
+PACKET_SIZE=128
+TRAFFIC_RATE="10M"
+DURATION=10
+
+BASE_DIR="/media/sf_Client/raw_data/testing"
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+TEST_DIR="$BASE_DIR/TEST_${TIMESTAMP}"
+
+mkdir -p "$TEST_DIR"
+
+# Memeriksa interface dari WireGuard
+if ! ip link show wg0 >/dev/null 2>&1; then
+	echo "ERROR: Interface wg0 tidak ditemukan."
+	exit 1
+fi
+
+# Memeriksa koneksi ke WireGuard
+if ! ping -c 1 -W 3 "$SERVER_ip" >/dev/null 2>&1; then
+    echo "ERROR: Server WireGuard tidak dapat dijangkau."
+     exit 1
+fi
+
+# Memeriksa interface dari WireGuard
+if ! command >/dev/null 2>&1; then
+    echo "ERROR: Iperf3 belum terpasang."
+    exit 1
+fi
+
+# Menyimpan metadata
+{
+    echo "======================================"
+    echo "METADATA TESTING WIREGUARD"
+    echo "======================================"

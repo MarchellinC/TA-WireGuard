@@ -1,0 +1,16 @@
+ID Pengujian : 3_1024bytes_50mbps_BASELINE_repeat2
+Tanggal      : Mon Oct 19 03:22:53 PM UTC 2026
+Client       : Ubuntu-Client
+Server IP    : 192.168.56.101
+Protokol     : UDP
+Ukuran       : 1024 byte
+Target       : 50M
+Durasi       : 30 detik
+Kondisi      : BASELINE
+Repeat       : 2
+Waktu selesai          : Mon Oct 19 03:23:31 PM UTC 2026
+Status iperf3           : 0
+Status receiver         : 0
+Status CPU client       : 0
+Status monitor CPU server: 0
+Status salin CPU server : 0
