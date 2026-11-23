@@ -1,0 +1,1 @@
+"""WireGuard research dashboard package."""
